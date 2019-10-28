@@ -31,7 +31,7 @@ Windows: Search for anaconda and open Anaconda prompt.
 
 Mac: open a terminal
 
-Create a new Anaconda environment with (replace `myproject` with the name of your project):
+Create a new Anaconda environment with:
 
 ```
 conda env create -f environment.yml
