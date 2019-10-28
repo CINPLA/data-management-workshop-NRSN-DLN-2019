@@ -1,0 +1,13 @@
+anaesthetic:
+  value: Isoflurane
+  definition: The drug used for anaesthesia.
+description:
+  value: Anaesthetics
+  definition: A textual description of the preparation.
+name: anaesthesia
+identifier: anaesthesia_isoflurane
+anaesthetic_dose:
+  value: 1 L/M at 1.5 with a small amount of ventilation
+  definition: The dose of the used anaesthetic.
+notes:
+  value: ''

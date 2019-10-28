@@ -1,0 +1,19 @@
+optic_fibre_serial_num:
+  value: CFM12U-20
+  definition: The serial number of the optic fibre.
+optic_fibre_manufacturer:
+  value: Thor labs
+  definition: The manufacturer of the optic fibre.
+definition: Describing an optic fibre used for optogenetics.
+name: OpticFibre
+identifier: optic_fibre
+optic_fibre_description:
+  value: Uncleaved Fiber Optic Cannula, Ø2.5 mm Stainless Ferrule, Ø200 µm Core, 0.39
+    NA, 20 Pack
+  definition: Description of the optic fibre.
+notes:
+  value: ''
+optic_fibre_diameter:
+  value:
+  - 200.0
+  unit: um

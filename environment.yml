@@ -1,0 +1,31 @@
+name: datamanagement
+dependencies:
+  - python=3.6
+  - numpy
+  - matplotlib
+  - scipy
+  - cython
+  - pandas
+  - seaborn
+  - ruamel_yaml
+  - pytest
+  - nose
+  - jupyter
+  - ipython
+  - click
+  - h5py
+  - tqdm
+  - openpyxl
+  - vispy
+  - traitlets
+  - joblib
+  - requests
+  - pyqt=5.9
+  - git
+  - sip
+  - pycodestyle
+  - pip:
+    - quantities
+    - tkfilebrowser
+    - xmljson
+    - expipe

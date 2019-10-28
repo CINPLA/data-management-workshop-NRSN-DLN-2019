@@ -1,0 +1,45 @@
+cell_line:
+  value: ''
+  definition: Cell line of the subject.
+species:
+  value: Rattus norvegicus
+  definition: The scientific name of the species e.g. Apis mellifera, Homo sapiens.
+gender:
+  value: Male
+  definition: Male or female?
+definition: Describing the subject.
+weight:
+  value: ''
+  unit: g
+genus:
+  value: Rattus
+  definition: The Genus of the studied subject.
+population:
+  value: locally bred
+  definition: The population this subject is offspring of. This may be the bee hive,
+    the ant colony, etc.
+birthday:
+  value: dd.mm.yyyy:HH:MM
+  definition: The birthday. Age can be inferred from the date of recording.
+notes:
+  value: ''
+developmental_stage:
+  value: adult
+  definition: The developemtal stage of the subject. E.g. 'embroyonal', 'adult', 'larval'
+    etc.
+strain:
+  value: Long Evans
+  definition: The strain the subject was taken from. E.g. a specific genetic variation
+    etc.
+trivial_name:
+  value: Rat
+  definition: The trivial name of the species like Honeybee, Human.
+label:
+  value: ''
+  definition: If the subject has been labled in a specific way. The lable can be described
+    here.
+health_status:
+  value: Healthy
+  definition: Information about the health status of this subject.
+name: subject
+identifier: subject

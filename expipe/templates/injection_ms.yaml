@@ -1,0 +1,79 @@
+syringe_needle_diameter:
+  value:
+  - 100.0
+  unit: um
+location:
+  alternatives:
+  - MECL
+  - MECR
+  - MS
+  value: MS
+  definition: 'Describes the brain area of recording. MS: Medial Septum, MECR: Medial
+    Entorhinal Cortex Right hemisphere, MECL: Medial Entorhinal Cortex Left hemisphere, '
+injection_substance_information:
+  value: Diluted to 5X10e12  with ice cold PBS (sterile lab PBS
+  definition: Additional information to injection substance.
+position_reference:
+  alternatives:
+  - bregma
+  - dura
+  - lambda
+  - longitudinal suture
+  - skull
+  - transverse sinus
+  value:
+    y: bregma
+    z: skull
+    x: bregma
+  definition: By default position are specified by the coordinates of skull. Use this
+    property for other definitions.
+injection_substance_manufacurer:
+  value: Deisseroth lab
+  definition: Name of manufacturer of the injection substance.
+identifier: injection_ms
+injection_substance_storage_manufactuer:
+  value: ''
+  definition: Manufacturer of storage device for injection substance
+hemisphere:
+  alternatives:
+    C, center: between hemispheres
+    L, left: left hemisphere
+    R, right: right hemisphere
+  value: C
+injection_substance_storage_temp:
+  value:
+  - -80.0
+  unit: degC
+position:
+  value:
+  - x
+  - y
+  - z
+  unit: mm
+notes:
+  value: 1 minute waiting before injection, 8 minute waiting after
+description:
+  value: Injection of virus in medial septum, AAV-mediated expression of channelrhodopsin-2
+  definition: A textual description of the preparation.
+definition: Describing an injection procedure e.g. injection of virus.
+syringe_manufacturer:
+  value: Hamilton
+  definition: The manufacturer of the syringe.
+name: injection_ms
+angle:
+  value:
+  - 0.0
+  unit: deg
+flow:
+  value:
+  - 0.05
+  unit: ul/min
+  definition: The angle of the implant, assuming leveled bregma and lambda, 0 degrees
+    is vertical implantation
+injection_substance:
+  value: ''
+  local_marker: ''
+  definition: The full name of the injection substance, e.g. AAV8-hSyn-eChR2(H134R)-EYFP.
+injection_substance_storage_info:
+  value: Kept on ice in fridge during surgery, for 2 h
+  definition: Information of storage procedure of injection substance.

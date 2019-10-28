@@ -1,0 +1,79 @@
+position:
+  value:
+  - x
+  - y
+  - z
+  unit: mm
+location:
+  alternatives:
+  - MECL
+  - MECR
+  - MS
+  value: MECR
+  definition: 'Describes the brain area of recording. MS: Medial Septum, MECR: Medial
+    Entorhinal Cortex Right hemisphere, MECL: Medial Entorhinal Cortex Left hemisphere, '
+description:
+  value: Implantation of optetrodes in Medial Entorhinal Cortex and fibre optcis in
+    Medial Septum.
+definition: Describing an implantation procedure of a micro drive.
+position_reference:
+  alternatives:
+  - bregma
+  - dura
+  - lambda
+  - longitudinal suture
+  - skull
+  - transverse sinus
+  value:
+    y: transverse sinus
+    z: dura
+    x: lambda
+  definition: By default position are specified by the coordinates of skull. Use this
+    property for other definitions.
+name: implant_drive_mecr
+electrophysiology:
+  type:
+    alternatives:
+    - EEG
+    - EKG
+    - EMG
+    - ERG
+    - extracellular recording
+    - intracellular recording
+    - loose patch
+    - patch clamp
+    - whole cell patch
+    value: extracellular recording
+  channel_groups:
+    value:
+    - 4.0
+    - 5.0
+    - 6.0
+    - 7.0
+    definition: Which channel groups are associated with this electrophysiological
+      procedure
+  subtype:
+    alternatives:
+    - dual electrode recording
+    - multi electrode recording
+    - single electrode recording
+    value: multi electrode recording
+    definition: Subtype of this electrophysiological experiment.
+  ref_electrode_location:
+    alternatives:
+    - Posterior to bregma
+    value: Posterior to bregma, right hemisphere
+    definition: Describes the location of the reference electrode.
+  definition: Describing electrophysiology in the expirimental setup.
+angle:
+  value: 15.0
+  unit: deg
+identifier: implant_drive_mecr
+notes:
+  value: Indexes refer to x,y,z respectively, all tetrodes have the same position.
+hemisphere:
+  alternatives:
+    C, center: between hemispheres
+    L, left: left hemisphere
+    R, right: right hemisphere
+  value: R
