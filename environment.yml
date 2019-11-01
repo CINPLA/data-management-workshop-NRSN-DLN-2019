@@ -25,6 +25,7 @@ dependencies:
   - sip
   - pycodestyle
   - pip:
+    - pynwb
     - quantities
     - tkfilebrowser
     - xmljson
