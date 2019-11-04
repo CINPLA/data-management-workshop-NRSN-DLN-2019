@@ -13,8 +13,10 @@ click
 h5py
 tqdm
 openpyxl
+colorcet
 vispy
 traitlets
+pyopengl
 joblib
 requests
 qtconsole
@@ -24,7 +26,9 @@ pynwb
 quantities
 tkfilebrowser
 xmljson
+PyQt5==5.9
 expipe
+exdir
 spikeinterface
 tridesclous
 klusta

@@ -29,7 +29,10 @@ dependencies:
     - tkfilebrowser
     - xmljson
     - expipe
+    - exdir
     - qtconsole
+    - PyQt5==5.9
+    - colorcet
     - spikeinterface
     - tridesclous
     - klusta
