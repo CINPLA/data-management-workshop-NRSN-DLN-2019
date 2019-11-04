@@ -50,6 +50,13 @@ Then, enter the environment using
 activate datamanagement
 ```
 
+### Ipywidgets in Jupyter
+If widgets does not show you might have to run the following, and restart the notebook
+
+```
+jupyter nbextension install --py widgetsnbextension --user
+```
+
 <!-- Install GIT [LFS](https://git-lfs.github.com/)
 
 [Nice intro video to LFS](https://www.youtube.com/watch?v=uLR1RNqJ1Mw) -->
