@@ -50,6 +50,10 @@ Then, enter the environment using
 activate datamanagement
 ```
 
+If the environment needs to be updated use
+```
+conda env update -f 
+```
 ### Ipywidgets in Jupyter
 If widgets does not show you might have to run the following, and restart the notebook
 
