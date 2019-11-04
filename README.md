@@ -12,6 +12,13 @@ Install [Github Desktop](https://desktop.github.com/), if you do not like to use
 
 Install [Atom](https://atom.io/)
 
+## For Windows users
+You need build tools for Microsoft visual C++, if not already installed go to
+https://visualstudio.microsoft.com/downloads/, click "Tools for Visual Studio 2019"
+and download the bottom most alternative ("Build Tools for Visual Studio 2019").
+Then start the downladed app and follow instructions.
+Note: you only need the build tools when prompted in the app.
+
 ### Cloning this repository
 This can either be done with Github Desktop
 or with a terminal. When we say terminal, in Windows we mean Anaconda prompt.
