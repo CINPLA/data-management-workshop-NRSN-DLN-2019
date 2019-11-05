@@ -34,8 +34,5 @@ dependencies:
     - PyQt5==5.9
     - colorcet
     - spikeinterface
-    - tridesclous
-    - klusta
-    - klustakwik2
     - git+https://github.com/cortex-lab/phy@dev
     - git+https://github.com/cortex-lab/phylib
